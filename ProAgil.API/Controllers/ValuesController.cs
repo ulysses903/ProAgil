@@ -35,30 +35,6 @@ namespace ProAgil.API.Controllers
             {
                 return this.StatusCode(StatusCodes.Status500InternalServerError, "Banco de Dados Falhou.");
             }
-            // return new Evento[] {
-            //     new Evento() {
-            //         EventoId = 1,
-            //         Tema = "Angular e .NET Core",
-            //         Local = "CG",
-            //         Lote = "1",
-            //         QtdPessoas = 250,
-            //         DataEnvento = DateTime.Now.AddDays(1).ToString("dd/MM/yyyy")
-            //     },new Evento() {
-            //         EventoId = 2,
-            //         Tema = "Angular",
-            //         Local = "CG",
-            //         Lote = "2",
-            //         QtdPessoas = 150,
-            //         DataEnvento = DateTime.Now.AddDays(2).ToString("dd/MM/yyyy")
-            //     },new Evento() {
-            //         EventoId = 3,
-            //         Tema = ".NET Core",
-            //         Local = "CG",
-            //         Lote = "3",
-            //         QtdPessoas = 300,
-            //         DataEnvento = DateTime.Now.AddDays(3).ToString("dd/MM/yyyy")
-            //     }
-            // };
         }
 
         // GET api/values/5
@@ -74,30 +50,6 @@ namespace ProAgil.API.Controllers
             {
                 return this.StatusCode(StatusCodes.Status500InternalServerError, "Banco de Dados Falhou.");
             }
-        //     return new Evento[] {
-        //         new Evento() {
-        //             EventoId = 1,
-        //             Tema = "Angular e .NET Core",
-        //             Local = "CG",
-        //             Lote = "1",
-        //             QtdPessoas = 250,
-        //             DataEnvento = DateTime.Now.AddDays(1).ToString("dd/MM/yyyy")
-        //         },new Evento() {
-        //             EventoId = 2,
-        //             Tema = "Angular",
-        //             Local = "CG",
-        //             Lote = "2",
-        //             QtdPessoas = 150,
-        //             DataEnvento = DateTime.Now.AddDays(2).ToString("dd/MM/yyyy")
-        //         },new Evento() {
-        //             EventoId = 3,
-        //             Tema = ".NET Core",
-        //             Local = "CG",
-        //             Lote = "3",
-        //             QtdPessoas = 300,
-        //             DataEnvento = DateTime.Now.AddDays(3).ToString("dd/MM/yyyy")
-        //         }
-        //     }.FirstOrDefault(x => x.EventoId == id);
         }
 
         // POST api/values
